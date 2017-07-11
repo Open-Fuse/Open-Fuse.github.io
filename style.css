@@ -1,0 +1,19 @@
+body
+{
+    font-family: arial;
+}
+
+h1
+{
+  color: red;
+}
+p
+{
+  color: gray;
+  font-weight: bold;
+}
+li
+{
+  color: orange;
+  font-style: italic;
+}
