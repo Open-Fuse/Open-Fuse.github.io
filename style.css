@@ -1,19 +1,60 @@
 body
 {
     font-family: arial;
+    background-color: grey;
 }
 
 h1
 {
-  color: red;
+  color: Orange;
+}
+h2
+{
+  color: white;
+}
+h3
+{
+  color: white;
 }
 p
 {
-  color: gray;
+  color: white;
   font-weight: bold;
 }
 li
 {
   color: orange;
   font-style: italic;
+}
+p
+{
+  color: white;
+}
+.heading
+{
+  text-align: center;
+  margin: auto;
+  border: 2px solid white;
+  padding: 30px;
+}
+.navigation
+{
+  text-align: center;
+}
+.commentBox
+{
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px;
+  height: 250px;
+  margin: 30px;
+  overflow: scroll;
+}
+.activeLink
+{
+  color: blue;
+}
+a
+{
+  color: orange;
 }
