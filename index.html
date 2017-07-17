@@ -11,14 +11,44 @@
     <h2>Home Page</h2>
   </div>
   <br>
-  
+
   <div class="navigation">
     <h3>
-      Navigation<br>
-      <a href="index.html">Home</a><br>
-      <a href="blog.html">Blog</a><br>
-      <a href="aboutme.html">About Me</a><br>
-      <a href="contact.html">Contact</a><br>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </h3>
   </div>
+
+<!-- SLIDESHOW HTML START-->
+  <div class="slideshow">
+
+      <div class="slides">
+        <div class="slideText"> 1 / 3 </div>
+        <img src="pictures/knicks.jpg" style="width:100%">
+      </div>
+
+      <div class="slides">
+        <div class="slideText"> 2 / 3 </div>
+        <img src="pictures/porzingis.jpg" style="width:100%">
+      </div>
+
+      <div class="slides">
+        <div class="slideText"> 3 / 3 </div>
+        <img src="pictures/young.jpg" style="width:100%">
+      </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
 </body>
